@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3 ,
+  "name": "Password Generator",
+  "version": "2.0",
+  "description": "Generate strong passwords",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+}
+
+  }
+
